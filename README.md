@@ -75,7 +75,7 @@ result = get_roc_auc(model_vgg_lka, 'stage2_model')
 print("ROC-AUC Score:", result)
 ```
 ---
-📌 Key Highlights
+## 📌 Key Highlights
 Stage 1 uses Binary Cross-Entropy Loss to learn abnormal's patterns.
 
 Stage 2 uses Focal Loss to focus on hard and minority classes.
@@ -85,10 +85,10 @@ Combines VGG16 backbone with Large Kernel Attention (LKA) modules for better spa
 Designed to handle class imbalance in multi-label medical imaging.
 
 ---
-📜 License
+## 📜 License
 This project is licensed under the MIT License.
 Feel free to use, modify, and share with attribution.
 
 ---
-📬 Contact
+## 📬 Contact
 For questions, feedback, or collaborations, please open an issue on this repository.
