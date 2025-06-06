@@ -69,7 +69,7 @@ Open `test-notebook.ipynb`:
 
 ```python
 # Load Stage 2 weights
-result = get_roc_auc(model_vgg_lka, 'stage2_model')
+result = get_roc_auc(model_vgg_lka, 'stage2_model')  # remove the ".pth"
 
 # Output ROC-AUC score
 print("ROC-AUC Score:", result)
