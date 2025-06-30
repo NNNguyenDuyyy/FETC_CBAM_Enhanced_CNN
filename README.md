@@ -1,8 +1,8 @@
-# Strategic Attention-Wise Blocks Integration in Imbalanced Multi-Label Chest X-Ray Diagnosis
+# Improving Imbalanced Multi-Label Chest X-Ray Diagnosis via CBAM-Enhanced CNN Backbones
 
 This repository contains the official implementation of the paper:
 
-> **Strategic Attention-Wise Blocks Integration in Imbalanced Multi-Label Chest X-Ray Diagnosis**
+> **Improving Imbalanced Multi-Label Chest X-Ray Diagnosis via CBAM-Enhanced CNN Backbones**
 
 We propose a deep learning framework combining CNN and attention-wise blocks to tackle the challenge of imbalanced multi-label classification in chest X-ray diagnosis.
 
@@ -17,13 +17,13 @@ We propose a deep learning framework combining CNN and attention-wise blocks to 
 
 ## 📁 Project Structure
 
-├── FETC-2025-AWBs-Train-Stage-1.ipynb # Stage 1: training notebook using BCE loss
+├── FETC-2025-CBAM-Enhanced-CNN-Train-Stage-1.ipynb # Stage 1: training notebook using BCE loss
 
-├── FETC-2025-AWBs-Train-Stage-2.ipynb # Stage 2: fine-tuning notebook 
+├── FETC-2025-CBAM-Enhanced-CNN-Train-Stage-2.ipynb # Stage 2: fine-tuning notebook 
 
-├── FETC-2025-AWBs-Testing.ipynb # Evaluation notebook 
+├── FETC-2025-CBAM-Enhanced-CNN-Testing.ipynb # Evaluation notebook 
 
-├── FETC-2025-AWBs-Weights # Trained Weights for Testing
+├── FETC-2025-CBAM-Enhanced-CNN-Weights # Trained Weights for Testing
 
 ├── LICENSE 
 
@@ -43,7 +43,7 @@ We propose a deep learning framework combining CNN and attention-wise blocks to 
 
 ### 🔧 1. Train Stage 1 on Kaggle (Backbone Pre-training)
 
-Open `FETC-2025-AWBs-Train-Stage-1.ipynb`:
+Open `FETC-2025-CBAM-Enhanced-CNN-Train-Stage-1.ipynb`:
 
 ```python
 # Train the model with BCE Loss
@@ -53,7 +53,7 @@ learn.fine_tune(freeze_epochs=3,epochs=20, base_lr=lrs.valley)
 ✅ Make sure GPU is set to P100 in Kaggle settings for best performance.
 
 ### 🎯 2. Train Stage 2 (Fine-tuning with Focal Loss)
-Open ` FETC-2025-AWBs-Train-Stage-2.ipynb`:
+Open `FETC-2025-CBAM-Enhanced-CNN-Train-Stage-2.ipynb`:
 
 ```python
 # Load Stage 1 weights
@@ -65,7 +65,7 @@ learn.fit_one_cycle(10, slice(2e-5, 8e-5))
 ```
 
 ### 🧪 3. Test and Evaluate the Model
-Open `FETC-2025-AWBs-Testing.ipynb`:
+Open `FETC-2025-CBAM-Enhanced-CNN-Testing.ipynb`:
 
 ```python
 # Load Stage 2 weights
@@ -77,7 +77,7 @@ print("ROC-AUC Score:", result)
 ---
 ## 📌 Key Highlights
 Combine CNN backbone with Convolutional Block Attention Module (CBAM) modules for better spatial representation.
-Find the appropriate to inject AWBs for the best results.
+Find the appropriate to inject CBAM for the best results.
 Do ablation study for better insights the two stage training strategy.
 
 ---
