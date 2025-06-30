@@ -10,7 +10,6 @@ We propose a deep learning framework combining CNN and attention-wise blocks to 
 ![Overall Architecture](https://github.com/user-attachments/assets/6d8e426b-afb5-45e3-91fa-bd7cdd446312)
 ![densenet](https://github.com/user-attachments/assets/aef5844e-af00-473d-a2f0-cd3ac97d46a0)
 ![vgg16](https://github.com/user-attachments/assets/9044a9a6-3c00-434d-bbfb-7e0352838ef9)
-![gradcam_comparison](https://github.com/user-attachments/assets/b6cc9f09-1bcd-446a-8fee-f5976d8d6b4e)
 ![densenet_cbam](https://github.com/user-attachments/assets/be176b15-8b3c-483c-964b-e3cc1bf86631)
 ![vgg_cbam](https://github.com/user-attachments/assets/7fd43e34-c8ab-4590-82f0-96b248ba69ff)
 
@@ -22,7 +21,7 @@ We propose a deep learning framework combining CNN and attention-wise blocks to 
 
 ├── FETC-2025-AWBs-Train-Stage-2.ipynb # Stage 2: fine-tuning notebook 
 
-├── FETC-2025-AWBs-Testing.ipynb # Evaluation notebook (ROC-AUC, gradcam)
+├── FETC-2025-AWBs-Testing.ipynb # Evaluation notebook 
 
 ├── FETC-2025-AWBs-Weights # Trained Weights for Testing
 
