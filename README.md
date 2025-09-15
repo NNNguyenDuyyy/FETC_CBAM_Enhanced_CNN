@@ -8,10 +8,10 @@ We propose a deep learning framework combining CNN and attention-wise blocks to 
 
 ---
 ![Overall Architecture](https://github.com/user-attachments/assets/6d8e426b-afb5-45e3-91fa-bd7cdd446312)
-![densenet](https://github.com/user-attachments/assets/aef5844e-af00-473d-a2f0-cd3ac97d46a0)
-![vgg16](https://github.com/user-attachments/assets/9044a9a6-3c00-434d-bbfb-7e0352838ef9)
-![densenet_cbam](https://github.com/user-attachments/assets/be176b15-8b3c-483c-964b-e3cc1bf86631)
-![vgg_cbam](https://github.com/user-attachments/assets/7fd43e34-c8ab-4590-82f0-96b248ba69ff)
+![densenet](https://github.com/user-attachments/assets/41d11018-46d9-4937-99a5-7fbf10c67b50)
+![vgg](https://github.com/user-attachments/assets/7783115f-f5ad-4c44-bfb1-0dc0402186a9)
+<img width="3572" height="3184" alt="dense_larger" src="https://github.com/user-attachments/assets/a6767300-15d9-42e6-b2b6-11148b51d981" />
+<img width="3572" height="3184" alt="vgg_larger" src="https://github.com/user-attachments/assets/9ca1a326-0a2f-4807-a5f9-4c0a05df1872" />
 
 ---
 
